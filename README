@@ -1,0 +1,32 @@
+# ⚡ DevPulse — GitHub Analytics Dashboard
+
+A full-stack web application that provides detailed analytics for any GitHub user including repository stats, language distribution, and top repositories.
+
+## 🔗 Live Demo
+👉 https://devpulse-tau-olive.vercel.app
+
+## 📸 Features
+- 🔍 Search any GitHub username
+- 📊 View total repos, stars and forks
+- 🧑‍💻 Language distribution pie chart
+- 🏆 Top repositories by stars
+- 📍 Profile info with location and bio
+
+## 🛠️ Tech Stack
+**Frontend:** React.js, Recharts, Axios, Vite
+
+**Backend:** Python, FastAPI, Uvicorn
+
+**API:** GitHub REST API
+
+**Deployment:** Vercel (frontend) + Render (backend)
+
+## 🚀 How It Works
+1. User enters any GitHub username
+2. React frontend calls FastAPI backend
+3. Backend fetches data from GitHub REST API
+4. Data is aggregated and sent back to frontend
+5. Dashboard renders charts and stats
+
+## 👩‍💻 Author
+Riya Bhowmik — [@riya10112005](https://github.com/riya10112005)
